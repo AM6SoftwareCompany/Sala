@@ -94,7 +94,7 @@ def submit():
 
     current_time = now.strftime("%H:%M:%S")
 
-    with sqlite3.connect("db/sala.db") as db:
+    with sqlite3.connect("sala.db") as db:
         c = db.cursor()
     c.execute("INSERT INTO %s VALUES (:Fajr, :Dhohr, :Asr, :Maghreb, :Isha, :time)"% s,
         {
