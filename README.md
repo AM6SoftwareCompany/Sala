@@ -1,6 +1,11 @@
-<img src="https://github.com/AM6SoftwareCompany/Sala/blob/master/am6-logo.ico" alt="" style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
+# Sala 
+#### an app to put an eye on your sala
 
-![Screen Shot](https://github.com/AM6SoftwareCompany/Sala/blob/master/img/ScrrenShot.png "Screen Shot")
+## How the app looks like
+![Screen Shot](https://github.com/AM6SoftwareCompany/Sala/blob/master/img/ScreenShot.png "Screen Shot")
 
 
-<a target="_blank" href="https://github.com/AM6SoftwareCompany/Sala/raw/master/dist/sala.exe">Download</a>
+To use the app and download <a target="_blank" href="https://github.com/AM6SoftwareCompany/Sala/raw/master/dist/sala.exe">`Click Here`</a>
+
+## Made by
+<a href="https://am6.tech/"><img src="https://github.com/AM6SoftwareCompany/Sala/blob/master/img/logo.jpg" alt="AM6 Logo"></a>
