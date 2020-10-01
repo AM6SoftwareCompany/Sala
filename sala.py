@@ -4,7 +4,7 @@ import datetime
 import webbrowser
 from tkinter import *
 from tkinter import messagebox
-
+'''
 if not os.path.isfile('am6-logo.ico'):
     import requests
     response = requests.get("https://am6.tech/assets/img/am6-logo.ico")
@@ -12,11 +12,11 @@ if not os.path.isfile('am6-logo.ico'):
     file = open("am6-logo.ico", "wb")
     file.write(response.content)
     file.close()
-
+'''
 # The main window
 main = Tk()
 main.title('Sala | الصلاة') # title
-main.iconbitmap("am6-logo.ico") # icon
+main.iconbitmap("img/am6-logo.ico") # icon
 main.geometry('300x300') # area
 # Make the window unresizable
 main.resizable(0, 0)
