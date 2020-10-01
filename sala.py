@@ -60,10 +60,19 @@ view_menu.add_command(label='Yeasterday', command=None)
 view_menu.add_command(label='Pick a day', command=None)
 # Week View SubMenu
 week_menu = Menu(view_menu, tearoff=False)
-view_menu.add_cascade(label='Week', menu=week_menu)
+view_menu.add_separator()
+view_menu.add_command(label='Current Week', command=None)
+view_menu.add_cascade(label='ALL Weeks', menu=week_menu)
+# Month View SubMenu
+month_menu = Menu(view_menu, tearoff=False)
+view_menu.add_separator()
+view_menu.add_command(label='Current Month', command=None)
+view_menu.add_cascade(label='ALL Months', menu=month_menu)
 # Year View SubMenu
 year_menu = Menu(view_menu, tearoff=False)
-view_menu.add_cascade(label='Year', menu=year_menu)
+view_menu.add_separator()
+view_menu.add_command(label='Current Year', command=None)
+view_menu.add_cascade(label='ALL Years', menu=year_menu)
 
 # Contact Us Menu
 contact_menu = Menu(sala_menu, tearoff=False)
