@@ -2,7 +2,7 @@
 #### an app to put an eye on your sala | برنامج لمتابعة صلاتك
 
 ## How the app looks like | هكذا يبدوا البرنامج
-![Screen Shot](https://github.com/AM6SoftwareCompany/Sala/blob/master/img/ScreenShot.png "Screen Shot")
+![Screen Shot](https://github.com/AM6SoftwareCompany/Sala/blob/master/img/ScreenShot2.png "Screen Shot")
 
 
 To use the app and download | لاستعمال وتنزيل البرنامج<a target="_blank" href="https://github.com/AM6SoftwareCompany/Sala/raw/master/App/Sala.zip">`Click Here | اضغط هنا`</a>
